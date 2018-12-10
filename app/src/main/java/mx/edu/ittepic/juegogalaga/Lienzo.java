@@ -13,7 +13,7 @@ public class Lienzo extends View {
 
         super(context);
         fondo=new Imagen(R.drawable.fondo, 0,0, this);
-        nave=new Imagen(R.drawable.nave, 50,2300,this);
+        nave=new Imagen(R.drawable.nave, 50,2000,this);
         punteronave=null;
         punterobala=null;
         punteroe1=null;
