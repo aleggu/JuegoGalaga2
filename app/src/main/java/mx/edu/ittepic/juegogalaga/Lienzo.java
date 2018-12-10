@@ -25,7 +25,7 @@ public class Lienzo extends View {
         enemigo1=new Imagen(R.drawable.enemigo, 50, 200, this);
         enemigo2=new Imagen(R.drawable.enemigo, 530, 300,this);
         enemigo3=new Imagen(R.drawable.enemigo, 1300, 100, this);
-        bala=new Imagen(R.drawable.bala, 85,2250,this);
+        bala=new Imagen(R.drawable.bala, 85,1950,this);
         ganaste=new Imagen(R.drawable.win, 500,1000,this);
         perdiste=new Imagen(R.drawable.lose, 500,1000,this);
         balae1= new Imagen (R.drawable.balaenemigo, (enemigo1.getX()+95), (enemigo1.getY()+250), this);
